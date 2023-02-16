@@ -12,13 +12,13 @@
         </div>
         <% end %>
       </div>
-      <div class="col">
-        <div class="d-flex search-result-nav" style="color: #999; justify-content: flex-end;">
-          <div>无障碍</div>
-          <div>｜</div>
-          <div>设置</div>
-          <div>登录</div>
-        </div>
+    </div>
+    <div class="col-md-3">
+      <div class="d-flex search-result-nav" style="color: #999; justify-content: flex-end;">
+        <div>无障碍</div>
+        <div>｜</div>
+        <div>设置</div>
+        <div>登录</div>
       </div>
     </div>
   </div>
@@ -30,4 +30,11 @@
     </div>
   </div>
 </div>
-<h1><%= @keyword %></h1>
+
+<div class="search-results" style="padding-left: 125px; padding-top: 20px; width: 50%;">
+
+  <p style="font-size: 11px; color: #999">搜狗已为您找到越<%= @total %>条相关结果</p>
+
+</div>
+
+
