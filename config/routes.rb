@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   root 'welcome#home'
 
   get 'wechat', to: 'welcome#wechat'
+  get 'search', to: 'welcome#search'
 end

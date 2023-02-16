@@ -4,4 +4,8 @@ class WelcomeController < ApplicationController
 
   def wechat
   end
+
+  def search
+    @keyword = params[:keyword]
+  end
 end
